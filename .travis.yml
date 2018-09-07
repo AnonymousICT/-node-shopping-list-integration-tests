@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: intense-ravine-39471
+  provider: heroku
+  api_key:
+    secure: jL5OYUXfX1pCb+9bMiFUERkJS6W6Z0ceMyhzswSgW+WNq5XAS/QFDwk/b3x/srZd6/7D+JQx0sAyPq0xIH+tT0gk+RICKm2VQI3yjg6zfjFtwM4HInTm9iMBuMydEwRcYX9C8pBlLu1t8LOMwmTEJuMQ66sTTVJAXmJCKD+xlWkv9zNa5PiqjZXF5TumSJUYtU4Ghq3eUvDtj0E940KzWfVt8FhAbVNprACfSt7RpuyIz04qmoV0cDs+gi6kcCDfbCO0e+65lUPL3sduW5DhPuD/luGtlPQKSLiW5YcInMzQchWUlhhTqLlm6g8KVaC1rn20yIadjDuByiYfIWp0KvywuEo2POWNcYPEOhcvJ9kFx47Gy1mWDR4EHNzbgg4WQ4b+4Egq5M2hzzUA9a/mJhn067zUHnffpftTsgOccuH/31gfUGgEruYZhPme7l+0KWYF7zUtQIc17srP1B512DX0LZxZK2qQ+w0YCSWv0J6s6QGyqjA+pderXjIRr1X0j3ZJdEe+XE9wJUW8GF6KDeBLhKEaLXlZKnJylHRe73mi1O5OpRKcQTtSJBZRa9lsNiYGojgxxO2NpdBfAG5mt5XZiB0EmS8lm+Tv91G1qp30TCfWvqxqnggjSwePThpH1pxDXSDBMEqj71h2qpWr/Nfsu2MrTZx52/7cZRClYk4=
+  app: "-node-shopping-list-integration-tests"
+  on:
+    repo: AnonymousICT/-node-shopping-list-integration-tests
